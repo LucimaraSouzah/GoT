@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Tiro+Devanagari+Hindi&display=swap");
+
+:root {
+  --font-title: "Old Standard TT", serif;
+  --font-text: "Tiro Devanagari Hindi", serif;
+  --white: #ffffff;
+  --black: #000000;
+  --grey-1: #d4d4d4;
+  --grey-1: #868686;
+  --grey-2: #3c3c3c;
+  --grey-3: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  font-family: var(--font-text);
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 5em;
+  background-color: var(--black);
+  background-image: url(/src/images/background-header.jpg);
+  background-repeat:no-repeat;
+  background-position: right;
+  background-size: 7.5em auto;
+}
+
+nav {
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconMenu {
+    display: none;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+  font-family:var(--font-title)
+}
+
+header a {
+    color: var(--white);
+}
+
+header:visited {
+    color: var(--white);
+}
+
+header h1:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  border-bottom: 3px solid var(--grey-2);
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: var(--grey-3);
+}
+
+.historia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.historiaTexto {
+    color: var(--white);
+    margin-right: 50px;
+}
+
+.historiaTexto h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.historiaTexto p {
+    text-align: justify;
+}
+
+hr {
+    border: 1px solid var(--grey-2);
+}
