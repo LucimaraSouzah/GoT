@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/icons/icon.svg" />
+    <link rel="stylesheet" href="characters.css" />
+    <!-- <!-- <link rel="stylesheet" href="../styles/style.css" /> -->
+    <link rel="stylesheet" href="./charactersMobile.css" />
+    <title>GOT</title>
+  </head>
+  <body>
+    <header>
+      <div class="background-header"></div>
+      <img
+        src="../images/icons/menu.svg"
+        class="iconMenu"
+        id="iconMenu"
+        alt="Ícone do menu"
+        onclick="abrirMenu()"
+      />
+      <nav id="navFechado">
+        <a href="../../index.html"><h1>Início</h1></a>
+        <a href="#" id="carregarPersonagens"><h1>Personagens</h1></a>
+        <a
+          href="#"
+          id="favoritos"
+          onclick="telaPersonagens(obj)"
+          class="favoritos"
+          ><h1>Favoritos</h1></a
+        >
+      </nav>
+    </header>
+    <main class="personagens">
+      <input
+        type="text"
+        placeholder="Digite o nome do personagem"
+        id="pesquisa"
+      />
+      <!-- <section class="category">
+        <a href="">A</a>
+        <a href="">B</a>
+        <a href="">C</a>
+        <a href="">D</a>
+        <a href="">E</a>
+        <a href="">F</a>
+        <a href="">G</a>
+        <a href="">H</a>
+        <a href="">I</a>
+        <a href="">J</a>
+        <a href="">K</a>
+        <a href="">L</a>
+        <a href="">M</a>
+        <a href="">N</a>
+        <a href="">O</a>
+        <a href="">P</a>
+        <a href="">Q</a>
+        <a href="">R</a>
+        <a href="">S</a>
+        <a href="">T</a>
+        <a href="">U</a>
+        <a href="">V</a>
+        <a href="">W</a>
+        <a href="">X</a>
+        <a href="">Y</a>
+        <a href="">Z</a>
+      </section> -->
+      <section class="cards" id="cards"></section>
+      <div id="detalhes"></div>
+    </main>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/effects.js"></script>
+  </body>
+</html>

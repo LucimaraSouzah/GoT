@@ -1,0 +1,42 @@
+@media screen and (max-width:757px) {
+  /* HEADER */
+  .iconMenu {
+      display: block;
+      position: relative;
+      width: 35px;
+      height: 35px;
+      top: 20px;
+      left: 20px;
+      cursor: pointer;
+  }
+  header {
+      position: fixed;
+  }
+  nav {
+      display: none;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: #000000;
+      width: 50%;
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      z-index: 1000;
+      margin-top: 45px;
+      
+  }
+  nav h1:nth-child(1) {
+      margin: 20px 0px 40px 25px;
+  }
+  nav h1 {
+      margin: 20px 0px 40px 25px;
+      width: max-content;
+  }
+  .navAberto{
+      display: flex;
+  }
+  .cardDetalhes {
+    width: 65%;
+    height: 50%
+  }
+}
