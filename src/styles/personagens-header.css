@@ -1,0 +1,78 @@
+header {
+  width: 100%;
+  height: 5em;
+  background-color: var(--black);
+  background-image: url(/src/assets/images/background-header.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 7.5em auto;
+}
+
+nav {
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconMenu {
+  display: none;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+  font-family: var(--font-title);
+}
+
+header a {
+  color: var(--white);
+}
+
+header:visited {
+  color: var(--white);
+}
+
+header h1:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  border-bottom: 3px solid var(--grey-2);
+}
+
+@media screen and (max-width: 757px) {
+  .iconMenu {
+    display: block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+  }
+  header {
+    position: fixed;
+  }
+  nav {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #000000;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    margin-top: 45px;
+  }
+  nav h1:nth-child(1) {
+    margin: 40px 0px 40px 25px;
+  }
+  nav h1 {
+    margin: 20px 0px 40px 25px;
+    width: max-content;
+  }
+  .navAberto {
+    display: flex;
+  }
+}

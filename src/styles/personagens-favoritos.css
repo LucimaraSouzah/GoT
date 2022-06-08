@@ -1,0 +1,15 @@
+.favorite {
+  background-image: url(/src/assets/icons/heart.svg);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.fav {
+  background-image: url(/src/assets/icons/heartfavorite.svg);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 0px;
+}

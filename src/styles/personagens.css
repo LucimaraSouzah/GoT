@@ -1,5 +1,8 @@
-@import url(./style-header.css);
-@import url(./style-main.css);
+@import url(./personagens-header.css);
+@import url(./personagens-main.css);
+@import url(./personagens-favoritos.css);
+@import url(./personagens-detalhes.css);
+@import url(./personagens-categoria.css);
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Tiro+Devanagari+Hindi&display=swap");
 
 :root {
@@ -7,6 +10,7 @@
   --font-text: "Tiro Devanagari Hindi", serif;
   --white: #ffffff;
   --black: #000000;
+  --grey-0: #e1e1e1;
   --grey-1: #d4d4d4;
   --grey-1: #868686;
   --grey-2: #3c3c3c;
@@ -20,7 +24,18 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
+  overflow-x: hidden;
   width: 100%;
-  font-family: var(--font-text);
+  height: 100vh;
+  background-color: var(--grey-3);
 }
+
+
+
+
+
+
+
+

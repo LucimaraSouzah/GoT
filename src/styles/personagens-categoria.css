@@ -1,0 +1,41 @@
+.esconder {
+  display: none;
+}
+
+.categoria {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 4%;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  margin-top: 5px;
+  background-color: var(--grey-1);
+  color: var(--grey-3);
+  border: none;
+  cursor: pointer;
+}
+
+button:nth-child(1) {
+  font-size: 12px;
+}
+
+.ativado {
+  background-color: var(--grey-2);
+  color: var(--white);
+}
+
+button:hover {
+  background-color: var(--grey-2);
+  color: var(--white);
+}

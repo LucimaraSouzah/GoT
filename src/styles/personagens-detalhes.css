@@ -1,0 +1,60 @@
+.detalhes {
+  position: absolute;
+  background-color: #00000099;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDetalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #868686;
+  border-radius: 10px;
+  width: 30%;
+  height: 40%;
+  border: 1px solid var(--grey-0);
+}
+
+.fechar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.cardDetalhes img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.cardDetalhes h1 {
+  font-family: var(--font-title);
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.dadosDetalhes {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.dadosDetalhes p:nth-child(1) {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 757px) {
+  .cardDetalhes {
+    width: 65%;
+    height: 50%;
+  }
+}
