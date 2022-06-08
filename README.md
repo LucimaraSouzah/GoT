@@ -6,6 +6,7 @@
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-como-contribuir-para-o-projeto">Como contribuir</a> • 
  <a href="#-agradecimentos">Agradecimentos</a>
 </p>
 
