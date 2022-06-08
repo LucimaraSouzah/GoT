@@ -68,4 +68,7 @@
   .personagens input {
     margin-top: 100px;
   }
+  .personagens input::placeholder {
+    font-size: 14px;
+  }
 }
