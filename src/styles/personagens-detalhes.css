@@ -37,6 +37,7 @@
 
 .cardDetalhes h1 {
   font-family: var(--font-title);
+  text-align: center;
   font-size: 40px;
   margin-top: 20px;
 }
